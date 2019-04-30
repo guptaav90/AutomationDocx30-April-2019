@@ -1,0 +1,75 @@
+#system is a class, out is a static member of system class and prinln is a method of printstream class.
+
+#What is Source control mgmt. system?
+SCM is provide controlling to version.
+
+#What is source controling prob?
+Before GIT HUB we were copy and paste the latest code into another machine again and again for merging the code together and after that take latest code from another machine into your local machine, to overcome this problem GIT HUB came into the market.
+
+#EX.Just you are working with google.com you can create a account on GIT hub will provide one URL, that URL is your company name+GIT URL and they will provide specific space for google, multiple user can access this given URL.
+
+#What is GIT? What is the difference between GIT and GIT HUB?
+GIT is source control mgmt. system which is provide latest version of code and GIT is a kind of tool which is provide multiple features push,pull, creating a multiple branches etc.
+
+and [GIT HUB is a website which is provide multiple services like task mgmt,bug tracking nd hosting services for GIT repo or central repo space for doing the multiple features push,pull, creating a multiple branches etc by through GIT HUB.]
+
+#How it works?
+multiple user can push your code or check-in the code into GIT repo or central repo or into multiple branches after that git hub will create one latest version and multiple user can pull the code or check-out the code into your local repo also.
+
+#How many branches in GIT?
+By default master branch is created but you can create multiple branches based on your requirment.
+
+#What is push and pull in GIT?
+Push means you can push or check-in your code into GIT repo or central repo and pull means you can take the latest version of code into local system. but you have to remember one thing in your mind each and every person should take the latest version of code when you pull or check-out the code.
+
+#username-avigupta90
+#email-avigupta.test90@gmail.com
+#pwd-Cspl@2020
+# tutorial-https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+
+#Just login into Git hub and create repo.
+-Enter repo name
+-Enter repo description
+-Make a private or public
+-Click on create repo.
+
+#Download Gitbash
+-Open git bash
+-Copy the path of location where your file or project were created or you want to push and pull that file or project.
+-Paste the location of file or project in git bash terminal.
+-cmd: git init, it will intilize the local repo
+-cmd: git remote add origin https://github.com/avigupta90/com.mvn.demo.git(local repo register or sync with central repo)/too add remote repo into local repo.
+-cmd: git remote remove origin (To remove the existing remote repo.) and cmd: git remote -v (To check exiting remote repo. status)
+-cmd: git add . (this cmd for added those file or project or add into local repo)
+-cmd: git rm --cached filename.extension(java.text) (To remove the tracked file from local or index repo convert into untracked file)
+-Note: create one file with extension .gitignore and put those file name in .gitignore file, you don not want to add or commited so, it wont add or commit in future 
+in local repo.
+-cmd: git commit -m "msg or text"(The "commit" command is used to save or commit your changes to the local repository.)
+-cmd: Git log (To check the how many commit you have done)
+cmd: git push origin master(To push your commited code or local repo into central repo.)
+cmd:git branch(To check existing branch in current/local repo.)
+cmd:git branch "branchName" (To create the new branch)
+cmd:git checkout "BranchName"(Switch to specific branch)
+cmd:git merge "BranchName" (To merge or transfer the commited code from one branch to another branch but before doing this
+ you have to come that branch where you want to merge)
+cmd: git status
+
+#if you want to pull the code then at first time you have to clone from github repo(only first time is required for cloning to pull the code)
+-cmd: git clone paste the url of github repo (To download the copy of central repo into local system)
+
+#if you want to commit(push) from github to local project or file then you have to change in file or project from github and commit then follow below step
+-cmd: git pull origin master
+then you will get those change in that local file or project where you have done from github.
+
+#for pushing the code you need to do create SSH key.
+ssh-keygen -t rsa -C "Emaild which is registered with github"
+#for pulling the code you need to run cloning first.
+
+ 
+
+
+
+
+-
+

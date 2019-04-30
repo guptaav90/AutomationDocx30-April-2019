@@ -1,6 +1,6 @@
 #system is a class, out is a static member of system class and prinln is a method of printstream class.
 
-#What is Source control mgmt. system?
+#What is Source control mgmt. SYSTEM?
 SCM is provide controlling to version.
 
 #What is source controling prob?

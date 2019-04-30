@@ -1,4 +1,4 @@
-1#What is Agile?
+1#What is AGILE?
 Agile is a process or methodology or dynamic env. where nothing is fixed,based on the requirement can be changed, so user has more readabilty in duration of devlepment
 and testing before making a product,Where in agile all teams are works together parallelly dev. team develop the source code and testing team write the test cases.
 
